@@ -1,0 +1,17 @@
+###
+POST http://localhost:3012/auth/add
+Content-Type: application/json
+
+{
+  "login": "toto",
+  "password": "admin1234"
+}
+
+###
+POST http://localhost:3012/auth/connect
+Content-Type: application/json
+
+{
+  "login": "toto",
+  "password": "admin12ddzazd"
+}
